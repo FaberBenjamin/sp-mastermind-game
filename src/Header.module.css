@@ -1,0 +1,61 @@
+.navbar_body {
+    width: 100vw;
+    margin-bottom: 150px;
+    min-height: 100px;
+    background-color: rgb(14, 152, 212);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 12px 12px 2px 1px rgba(3, 133, 255, 0.2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 10vw;
+}
+
+img {
+    width: 200px;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+span {
+    font-weight: 700;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: rgb(197, 197, 45);
+}
+
+.pink {
+    color: rgb(238, 102, 124);
+}
