@@ -76,6 +76,7 @@ const ThirdRow = (props) => {
 
   return (
     <div id="row-3" class="color-row">
+    <div className="color_container">
       <div
         onClick={playerChoseColorHandler}
         ref={currentColorFirst}
@@ -101,6 +102,7 @@ const ThirdRow = (props) => {
         {blackDivs}
         {basicDivs}
       </div>
+</div>
       <button
         onClick={submitHandler}
         className={
