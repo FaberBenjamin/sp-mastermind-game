@@ -165,7 +165,16 @@ font-size: 28px;
     color: white;
 }
 
+
+.color_container {
+    display: flex;
+    align-items: center;
+}
+
 @media all and (max-width: 1200px) {
+    .color-row {
+       flex-direction:column;
+    }
     .desktop_view {
         display: none;
     }
